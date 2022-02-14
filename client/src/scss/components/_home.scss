@@ -1,0 +1,14 @@
+.home{
+    &_image{
+        height:200px;
+        border: 1px solid red;
+    }
+    &_tabs{
+        height:5rem;
+        &_bar{
+            height:5rem;
+        }
+    }
+   
+   
+}

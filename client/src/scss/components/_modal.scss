@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    &_para,&_span{
+        color:$black;
+    }
+    &_action{
+        color:red;
+    }
+   &_action_confirm{
+       display: flex;
+       justify-content: space-between;
+       gap: 2rem;
+   }
+}
