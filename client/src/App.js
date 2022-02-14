@@ -17,6 +17,7 @@ import Dashboard from "./components/Dashboard";
 import MasterLogin from "./components/MasterLogin";
 import RouteLinks from "./private/RouteLinks";
 import TeenPatti from "./components/TeenPatti";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
             </RouteLinks>
           }
           />
-          <Route path="/login" exact element={<LoginModal showLoginModal={true} />} />
+          <Route path="/login" exact element={<Login />} />
           <Route path="/adminLogin" exact element={<AdminLogin />} />
           <Route path="/masterLogin" exact element={<MasterLogin />} />
           <Route path="/" exact element={<Home />} />

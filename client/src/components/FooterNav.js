@@ -14,10 +14,10 @@ function FooterNav() {
             <nav className="footer_navbar">
                 <div className="container">
                     <div className="navbar__row">
-                        <IconButton onClick={redirectHome}>
+                        <IconButton onClick={redirectHome} className="footer_navbar_icons">
                             <HomeIcon fontSize='large' color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton className="footer_navbar_icons">
                             <AccountBoxIcon fontSize='large' color="primary" />
                         </IconButton>
 
